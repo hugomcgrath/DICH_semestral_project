@@ -1,1 +1,1 @@
-# DICH_semestral_project
+# Semestral project - Data Engineering in Chemistry
