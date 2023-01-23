@@ -44,7 +44,7 @@ PARAMS = {"svc": {"C": [0.1, 1, 10]},
                   "alpha": [0.0001, 0.0005, 0.001],
                   "learning_rate": ["adaptive"],
                   "max_iter": [50]},
-          "gnb": {"var_smoothing": [1e-8, 1e-9, 1e-10]},
+          #   "gnb": {"var_smoothing": [1e-8, 1e-9, 1e-10]},
           "ada": {"n_estimators": [10, 50, 100],
                   "algorithm": ['SAMME', 'SAMME.R']
                   }
@@ -56,7 +56,7 @@ MODEL_NAMES_PLOTTING = {"svc": "Support Vector Classifier",
                         "random_forest": "Random Forest",
                         "knn": "K-Nearest Neighbors",
                         "mlp": "Multilayer Perceptron",
-                        "gnb": "Gaussian Naive Bayes",
+                        # "gnb": "Gaussian Naive Bayes",
                         "ada": "AdaBoost Classifier"
                         }
 
